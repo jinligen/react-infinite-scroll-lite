@@ -176,6 +176,7 @@ jspm_packages
 
 # Custom
 .idea
+demo/demo.js
 
 
 # End of https://www.gitignore.io/api/osx,linux,webstorm,sublimetext,node
