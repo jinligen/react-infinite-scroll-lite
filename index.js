@@ -77,8 +77,7 @@ export default class InfiniteScroll extends React.Component {
 
     render() {
         return (
-            <div className="infinite-scroll-wrapper"
-                 ref={(ref) => this.dom = ref}
+            <div ref={(ref) => this.dom = ref}
                  style={this.props.style}
             >
                 {this.props.children}
